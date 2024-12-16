@@ -22,7 +22,7 @@ gym.register_envs(ale_py) #to be able to use ale environments we have to registe
 env = gym.make("ALE/Boxing-v5", render_mode="rgb_array")  
 
 #to save metrics in wandb
-wandb.login(key="067eada2bb47e4ae47f13cdb62ae8ab49d182618")
+wandb.login(key="KEY")
 
 #hyperparameters  used
 config = {
