@@ -263,7 +263,7 @@ if __name__ == "__main__":
     }
     
     #init wandb
-    wandb.login(key="067eada2bb47e4ae47f13cdb62ae8ab49d182618")
+    wandb.login(key="KEY")
     
     #config wandb
     run = wandb.init(
