@@ -178,8 +178,8 @@ def make_env():
                 dtype=np.float32
             )
             self.action_space = env.action_space(self.agents[0])
-            self.current_side = 0  # Track which side we're playing from
-            self._current_side = 0  # Additional attribute for external access
+            self.current_side = 0  #which side we're playing from
+            self._current_side = 0  
 
         #reset   
         def reset(self, **kwargs):
