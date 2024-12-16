@@ -18,7 +18,7 @@ agent = BoxingREINFORCEAgent(INPUT_SHAPE, ACTION_DIM, LEARNING_RATE, GAMMA)
 """Other models from the boxing_models_reinforce can be loaded and evaluated, 
                     but we chose our best performing one"""
 
-model_path = "/fhome/pmlai06/boxing_models_ev/best_boxing_model_20241209_094554_reward_-6.54.pth"
+model_path = "./Solving-ALE-envs/Part 2 - Boxing/REINFORCE with Policy Gradient/boxing_models_reinforce/best_boxing_model_20241209_094554_reward_-6.54.pth"
 agent.policy.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
 
 #eval function with conditional video recording
