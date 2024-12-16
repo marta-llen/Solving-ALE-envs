@@ -197,7 +197,7 @@ if __name__ == "__main__":
     
     #run ID from wandb
     run_id = "5fcx7aqi"
-    model_path = f"models/{run_id}/best_model.zip"
+    model_path = f"./Solving-ALE-envs/Part 3 - Pong/wrong approaches/models/{run_id}/best_model.zip"
     
     #eval model
     evaluate_model(
