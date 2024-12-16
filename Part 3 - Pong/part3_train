@@ -24,7 +24,7 @@ class MetricsCallback(BaseCallback):
         self.rolling_rewards_side1 = []
         self.rolling_window = 100
         self.best_mean_reward = -np.inf
-        self.min_episodes_before_save = 200
+        self.min_episodes_before_save = 100
         
     def _on_step(self) -> bool:
         current_reward = self.locals['rewards'][0]
